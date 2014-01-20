@@ -4,10 +4,33 @@
     <head>
         <meta charset="utf-8">
         <title>Alex Karasyov - Personal Profile</title>
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<!--         <link rel="stylesheet" type="text/css" href="css/normalize.css">
+ -->        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" href="css/anythingslider.css">
+
+        <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+        <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+        <script src="js/jquery.anythingslider.js"></script>
+
+        <!-- AnythingSlider initialization -->
+        <script>
+            // DOM Ready
+            $(function(){
+                $('#slider').anythingSlider();
+            });
+        </script>
     </head>
 
     <body>
+        <nav class="main-nav group">
+            <a href="index.html">Profile</a>
+            <a href="http://alexkarasyov.com">Portfolio</a>
+            <a href="http://freenalive.com">Music Blog</a>
+            <a href="http://facebook.com/alexkarasyov">Facebook</a>
+            <a href="http://twitter.com/alexkarasyov">@Twitter</a>       
+       </nav>
+       
              
         <section class="page">
             <header>
@@ -15,6 +38,21 @@
                 <h1>Hello, My Name is <b>Alex Karasyov</b></h1>
             </header>
             <hr>
+            
+            <ul id="slider">
+
+                <li><img src="img/alex.jpg" alt=""></li>
+
+                <li><img src="img/apoorv.jpg" alt=""></li>
+
+                <li><img src="img/calvin.jpg" alt=""></li>
+
+                <li><img src="img/duncan.jpg" alt=""></li>
+                <li><img src="img/jin.jpg" alt=""></li>
+
+            </ul>
+
+
 
             <article>
                 <h2>Work</h2>
