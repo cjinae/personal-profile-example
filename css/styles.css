@@ -1,3 +1,7 @@
+/** { 
+  border: 1px solid red;
+  }*/
+
 html, body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -51,6 +55,8 @@ header h1 {
 article {
     padding: 20px;
 }
+
+/*1.0 Navigation */
 .main-nav {
     width: 400px;
     margin: 0 auto;
@@ -62,7 +68,7 @@ article {
 
 .main-nav a {
     display: inline-block;
-    float: left;
+    /*float: left;*/
     font-size: 18px;
     font-weight: 200;
     margin: 0 10px 5px 0 ;
@@ -80,4 +86,8 @@ article {
 .main-nav a:hover {
         background: linear-gradient(#b4b4b4, #a4a4a4); 
 
+}
+
+.nav-links {
+    text-align: center;
 }
